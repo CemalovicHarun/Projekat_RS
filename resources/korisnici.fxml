@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="176.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Korisnici">
+   <children>
+      <Pane prefHeight="332.0" prefWidth="358.0">
+         <children>
+            <TextField layoutX="119.0" layoutY="24.0" prefHeight="25.0" prefWidth="57.0" />
+            <TextField layoutX="119.0" layoutY="59.0" prefHeight="25.0" prefWidth="221.0" />
+            <TextField layoutX="119.0" layoutY="94.0" prefHeight="25.0" prefWidth="221.0" />
+            <TextField layoutX="119.0" layoutY="134.0" prefHeight="25.0" prefWidth="149.0" />
+            <TextField layoutX="119.0" layoutY="168.0" />
+            <TextField layoutX="119.0" layoutY="207.0" />
+            <TextField layoutX="119.0" layoutY="243.0" prefHeight="25.0" prefWidth="221.0" />
+            <Label layoutX="25.0" layoutY="28.0" text="ID Korisnika:" />
+            <Label layoutX="25.0" layoutY="63.0" text="Naziv firme:" />
+            <Label layoutX="24.0" layoutY="98.0" prefHeight="17.0" prefWidth="65.0" text="Adresa:" />
+            <Label layoutX="23.0" layoutY="138.0" text="Porezni broj:" />
+            <Label layoutX="23.0" layoutY="172.0" text="Odgovorno lice:" />
+            <Label layoutX="25.0" layoutY="211.0" text="Telefonski broj:" />
+            <Label layoutX="25.0" layoutY="247.0" text="E-mail:" />
+            <Button fx:id="spremiBtn" layoutX="230.0" layoutY="293.0" mnemonicParsing="false" onAction="#clickSpremi" text="Spremi" />
+            <Button fx:id="ponistiBtn" layoutX="288.0" layoutY="293.0" mnemonicParsing="false" onAction="#clickPonisti" text="Ponisti" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
